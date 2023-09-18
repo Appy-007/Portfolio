@@ -1,0 +1,64 @@
+
+
+.contact_heading{
+    font-size: 2.7rem;
+    text-align: center;
+    margin: 1rem auto;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    color: yellow;
+ }
+
+ .contact_desc{
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+ }
+
+ .contact_form{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    max-width: 60rem;
+    object-fit: cover;
+    padding-left: 6rem;
+ }
+
+ .name , .email, .message{
+    padding: 1rem ;
+    margin: 0.6rem auto;
+    width: 50vw;
+    max-width: 35rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    object-fit: cover;
+
+ }
+
+ .submit_btn{
+    padding: 1rem;
+    margin: 0.6rem ;
+    height: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #2B2730;
+    color: aliceblue;
+ }
+
+ @media screen and (max-width:400px) {
+   .name , .email , .message{
+      height: 1.5rem;
+   }
+   .submit_btn{
+      height: 1.5rem;
+   }
+   
+ }
+
+ 

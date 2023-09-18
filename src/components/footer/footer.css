@@ -1,0 +1,30 @@
+#footer{
+    padding: 2rem;
+}
+
+
+.footer_para{
+    font-size:  1rem;
+    text-align: center;
+    color: yellow;
+}
+
+.footer_para:hover{
+    font-size: 1.3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.footer_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_img{
+    margin: 0.8rem;
+    font-size: 2rem;
+}
+.footer_img:hover{
+    color: yellow;
+}

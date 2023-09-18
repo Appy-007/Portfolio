@@ -1,0 +1,49 @@
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.about_heading{
+   font-size: 2.7rem;
+   text-align: center;
+   margin: 1rem auto;
+   margin-bottom: 4rem;
+   color: yellow;
+}
+
+
+.skillset_frontend,.skillset_backend{
+   padding: 2rem 6rem;
+    background: #2B2730;
+   border: 1px solid transparent;
+   border-radius: 5%;
+   margin-left: 5rem;
+   margin-right: 5rem;
+}
+
+.skillset_frontend:hover,.skillset_backend:hover{
+   background: #352F44;
+   cursor: default;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+}
+
+.skillset_items{
+    padding:0.8rem 
+}
+
+@media screen and (max-width:960px){
+    .skills{
+        grid-template-columns: 1fr;
+    }
+    .skillset_frontend , .skillset_backend{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    
+}
