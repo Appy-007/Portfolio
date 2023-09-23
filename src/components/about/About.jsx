@@ -23,6 +23,7 @@ function About (){
          <div className="skillset">
           <article className="skillset_items"> <BsFillPatchCheckFill/><h4>Nodejs</h4></article>
           <article className="skillset_items"> <BsFillPatchCheckFill/><h4>Expressjs</h4></article>
+          <article className="skillset_items"> <BsFillPatchCheckFill/><h4>Ejs</h4></article>
           <article className="skillset_items"> <BsFillPatchCheckFill/><h4>MongoDB</h4></article>
          </div>
         </div>
